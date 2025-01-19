@@ -4,10 +4,53 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>hongmumuk_SwiftUI.xcscheme_^#shared#^_</key>
+		<key>Debug(dev).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Debug(prod).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Debug(stag).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Release(dev).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Release(prod).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Release(stag).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BEFB83982D3D359F000D9537</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEFB83A82D3D35A1000D9537</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEFB83B22D3D35A1000D9537</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

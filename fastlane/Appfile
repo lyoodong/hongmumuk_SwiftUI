@@ -1,0 +1,16 @@
+apple_id(ENV["APPLE_ID"])
+itc_team_id(ENV["ITC_TEAM_ID"])
+team_id(ENV["TEAM_ID"])
+
+for_platform :ios do
+
+  # staging
+  for_lane :staging do
+    app_identifier ENV["app_identifier_stag"]
+  end
+
+  # product
+  for_lane :production do
+    app_identifier ENV["app_identifier_prod"]
+  end
+end

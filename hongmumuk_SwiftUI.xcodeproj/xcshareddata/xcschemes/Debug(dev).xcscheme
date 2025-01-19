@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1620"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BEFB83982D3D359F000D9537"
+               BuildableName = "hongmumuk_SwiftUI.app"
+               BlueprintName = "hongmumuk_SwiftUI"
+               ReferencedContainer = "container:hongmumuk_SwiftUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug(dev)"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BEFB83A82D3D35A1000D9537"
+               BuildableName = "hongmumuk_SwiftUITests.xctest"
+               BlueprintName = "hongmumuk_SwiftUITests"
+               ReferencedContainer = "container:hongmumuk_SwiftUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BEFB83B22D3D35A1000D9537"
+               BuildableName = "hongmumuk_SwiftUIUITests.xctest"
+               BlueprintName = "hongmumuk_SwiftUIUITests"
+               ReferencedContainer = "container:hongmumuk_SwiftUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug(dev)"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BEFB83982D3D359F000D9537"
+            BuildableName = "hongmumuk_SwiftUI.app"
+            BlueprintName = "hongmumuk_SwiftUI"
+            ReferencedContainer = "container:hongmumuk_SwiftUI.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Debug(dev)"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BEFB83982D3D359F000D9537"
+            BuildableName = "hongmumuk_SwiftUI.app"
+            BlueprintName = "hongmumuk_SwiftUI"
+            ReferencedContainer = "container:hongmumuk_SwiftUI.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug(dev)">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Debug(dev)"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
