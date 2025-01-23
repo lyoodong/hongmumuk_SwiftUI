@@ -17,6 +17,15 @@
 		2FA0979D2D42865400D01792 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0979C2D42865400D01792 /* .swiftlint.yml */; };
 		2FA0979E2D42865400D01792 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0979C2D42865400D01792 /* .swiftlint.yml */; };
 		2FA0979F2D42865400D01792 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0979C2D42865400D01792 /* .swiftlint.yml */; };
+		2FA097C92D42A11000D01792 /* stag.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C82D42A11000D01792 /* stag.xcconfig */; };
+		2FA097CA2D42A11000D01792 /* dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C62D42A11000D01792 /* dev.xcconfig */; };
+		2FA097CB2D42A11000D01792 /* prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C72D42A11000D01792 /* prod.xcconfig */; };
+		2FA097CC2D42A11000D01792 /* stag.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C82D42A11000D01792 /* stag.xcconfig */; };
+		2FA097CD2D42A11000D01792 /* dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C62D42A11000D01792 /* dev.xcconfig */; };
+		2FA097CE2D42A11000D01792 /* prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C72D42A11000D01792 /* prod.xcconfig */; };
+		2FA097CF2D42A11000D01792 /* stag.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C82D42A11000D01792 /* stag.xcconfig */; };
+		2FA097D02D42A11000D01792 /* dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C62D42A11000D01792 /* dev.xcconfig */; };
+		2FA097D12D42A11000D01792 /* prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C72D42A11000D01792 /* prod.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,9 @@
 		2FA097902D427FCF00D01792 /* hongmumuk_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hongmumuk_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		2FA097912D427FCF00D01792 /* hongmumuk_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hongmumuk_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2FA0979C2D42865400D01792 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		2FA097C62D42A11000D01792 /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
+		2FA097C72D42A11000D01792 /* prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = prod.xcconfig; sourceTree = "<group>"; };
+		2FA097C82D42A11000D01792 /* stag.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = stag.xcconfig; sourceTree = "<group>"; };
 		BEFB83992D3D359F000D9537 /* hongmumuk_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hongmumuk_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83A92D3D35A1000D9537 /* hongmumuk_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83B32D3D35A1000D9537 /* hongmumuk_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +106,7 @@
 		2FA0978B2D427FC900D01792 /* hongmumuk_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2FA097C52D42A0EC00D01792 /* Configuration */,
 				2FA097872D427FC900D01792 /* Preview Content */,
 				2FA097882D427FC900D01792 /* Assets.xcassets */,
 				2FA097892D427FC900D01792 /* ContentView.swift */,
@@ -109,6 +122,16 @@
 				2FA097912D427FCF00D01792 /* hongmumuk_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = hongmumuk_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		2FA097C52D42A0EC00D01792 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2FA097C62D42A11000D01792 /* dev.xcconfig */,
+				2FA097C72D42A11000D01792 /* prod.xcconfig */,
+				2FA097C82D42A11000D01792 /* stag.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		BEFB83902D3D359F000D9537 = {
@@ -246,6 +269,9 @@
 			files = (
 				2FA0978E2D427FC900D01792 /* Preview Assets.xcassets in Resources */,
 				2FA0978F2D427FC900D01792 /* Assets.xcassets in Resources */,
+				2FA097CC2D42A11000D01792 /* stag.xcconfig in Resources */,
+				2FA097CD2D42A11000D01792 /* dev.xcconfig in Resources */,
+				2FA097CE2D42A11000D01792 /* prod.xcconfig in Resources */,
 				2FA0979D2D42865400D01792 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA097C92D42A11000D01792 /* stag.xcconfig in Resources */,
+				2FA097CA2D42A11000D01792 /* dev.xcconfig in Resources */,
+				2FA097CB2D42A11000D01792 /* prod.xcconfig in Resources */,
 				2FA0979E2D42865400D01792 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA097CF2D42A11000D01792 /* stag.xcconfig in Resources */,
+				2FA097D02D42A11000D01792 /* dev.xcconfig in Resources */,
+				2FA097D12D42A11000D01792 /* prod.xcconfig in Resources */,
 				2FA0979F2D42865400D01792 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
