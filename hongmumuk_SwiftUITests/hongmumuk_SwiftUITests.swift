@@ -6,9 +6,9 @@
 //
 
 import XCTest
-@testable import hongmumuk_SwiftUI
+@testable import Hongmumuk_SwiftUI
 
-final class hongmumuk_SwiftUITests: XCTestCase {
+final class Hongmumuk_SwiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

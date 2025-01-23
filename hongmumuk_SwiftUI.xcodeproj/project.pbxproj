@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2FA097852D427FC400D01792 /* hongmumuk_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA097832D427FC400D01792 /* hongmumuk_SwiftUITests.swift */; };
+		2FA0978C2D427FC900D01792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA097892D427FC900D01792 /* ContentView.swift */; };
+		2FA0978D2D427FC900D01792 /* hongmumuk_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0978A2D427FC900D01792 /* hongmumuk_SwiftUIApp.swift */; };
+		2FA0978E2D427FC900D01792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097862D427FC900D01792 /* Preview Assets.xcassets */; };
+		2FA0978F2D427FC900D01792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097882D427FC900D01792 /* Assets.xcassets */; };
+		2FA097932D427FCF00D01792 /* hongmumuk_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA097902D427FCF00D01792 /* hongmumuk_SwiftUIUITests.swift */; };
+		2FA097942D427FCF00D01792 /* hongmumuk_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA097912D427FCF00D01792 /* hongmumuk_SwiftUIUITestsLaunchTests.swift */; };
+		2FA0979D2D42865400D01792 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0979C2D42865400D01792 /* .swiftlint.yml */; };
+		2FA0979E2D42865400D01792 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0979C2D42865400D01792 /* .swiftlint.yml */; };
+		2FA0979F2D42865400D01792 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0979C2D42865400D01792 /* .swiftlint.yml */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BEFB83AA2D3D35A1000D9537 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FA097832D427FC400D01792 /* hongmumuk_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hongmumuk_SwiftUITests.swift; sourceTree = "<group>"; };
+		2FA097862D427FC900D01792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FA097882D427FC900D01792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FA097892D427FC900D01792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FA0978A2D427FC900D01792 /* hongmumuk_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hongmumuk_SwiftUIApp.swift; sourceTree = "<group>"; };
+		2FA097902D427FCF00D01792 /* hongmumuk_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hongmumuk_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		2FA097912D427FCF00D01792 /* hongmumuk_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hongmumuk_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FA0979C2D42865400D01792 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		BEFB83992D3D359F000D9537 /* hongmumuk_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hongmumuk_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83A92D3D35A1000D9537 /* hongmumuk_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83B32D3D35A1000D9537 /* hongmumuk_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hongmumuk_SwiftUI;
-			sourceTree = "<group>";
-		};
-		BEFB83AC2D3D35A1000D9537 /* hongmumuk_SwiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hongmumuk_SwiftUITests;
-			sourceTree = "<group>";
-		};
-		BEFB83B62D3D35A1000D9537 /* hongmumuk_SwiftUIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hongmumuk_SwiftUIUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEFB83962D3D359F000D9537 /* Frameworks */ = {
@@ -72,12 +75,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FA097842D427FC400D01792 /* hongmumuk_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA097832D427FC400D01792 /* hongmumuk_SwiftUITests.swift */,
+			);
+			path = hongmumuk_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		2FA097872D427FC900D01792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FA097862D427FC900D01792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FA0978B2D427FC900D01792 /* hongmumuk_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2FA097872D427FC900D01792 /* Preview Content */,
+				2FA097882D427FC900D01792 /* Assets.xcassets */,
+				2FA097892D427FC900D01792 /* ContentView.swift */,
+				2FA0978A2D427FC900D01792 /* hongmumuk_SwiftUIApp.swift */,
+			);
+			path = hongmumuk_SwiftUI;
+			sourceTree = "<group>";
+		};
+		2FA097922D427FCF00D01792 /* hongmumuk_SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA097902D427FCF00D01792 /* hongmumuk_SwiftUIUITests.swift */,
+				2FA097912D427FCF00D01792 /* hongmumuk_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = hongmumuk_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
 		BEFB83902D3D359F000D9537 = {
 			isa = PBXGroup;
 			children = (
-				BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */,
-				BEFB83AC2D3D35A1000D9537 /* hongmumuk_SwiftUITests */,
-				BEFB83B62D3D35A1000D9537 /* hongmumuk_SwiftUIUITests */,
+				2FA0979C2D42865400D01792 /* .swiftlint.yml */,
+				2FA0978B2D427FC900D01792 /* hongmumuk_SwiftUI */,
+				2FA097842D427FC400D01792 /* hongmumuk_SwiftUITests */,
+				2FA097922D427FCF00D01792 /* hongmumuk_SwiftUIUITests */,
 				BEFB839A2D3D359F000D9537 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEFB83BD2D3D35A1000D9537 /* Build configuration list for PBXNativeTarget "hongmumuk_SwiftUI" */;
 			buildPhases = (
+				2FA097952D4280EA00D01792 /* SwiftLint */,
 				BEFB83952D3D359F000D9537 /* Sources */,
 				BEFB83962D3D359F000D9537 /* Frameworks */,
 				BEFB83972D3D359F000D9537 /* Resources */,
@@ -106,9 +147,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */,
 			);
 			name = hongmumuk_SwiftUI;
 			packageProductDependencies = (
@@ -130,9 +168,6 @@
 			dependencies = (
 				BEFB83AB2D3D35A1000D9537 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BEFB83AC2D3D35A1000D9537 /* hongmumuk_SwiftUITests */,
-			);
 			name = hongmumuk_SwiftUITests;
 			packageProductDependencies = (
 			);
@@ -152,9 +187,6 @@
 			);
 			dependencies = (
 				BEFB83B52D3D35A1000D9537 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BEFB83B62D3D35A1000D9537 /* hongmumuk_SwiftUIUITests */,
 			);
 			name = hongmumuk_SwiftUIUITests;
 			packageProductDependencies = (
@@ -212,6 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA0978E2D427FC900D01792 /* Preview Assets.xcassets in Resources */,
+				2FA0978F2D427FC900D01792 /* Assets.xcassets in Resources */,
+				2FA0979D2D42865400D01792 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA0979E2D42865400D01792 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,16 +262,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA0979F2D42865400D01792 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FA097952D4280EA00D01792 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:$PATH\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEFB83952D3D359F000D9537 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA0978C2D427FC900D01792 /* ContentView.swift in Sources */,
+				2FA0978D2D427FC900D01792 /* hongmumuk_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA097852D427FC400D01792 /* hongmumuk_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA097932D427FCF00D01792 /* hongmumuk_SwiftUIUITests.swift in Sources */,
+				2FA097942D427FCF00D01792 /* hongmumuk_SwiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +335,6 @@
 /* Begin XCBuildConfiguration section */
 		BEFB83BB2D3D35A1000D9537 /* Debug(dev) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */;
-			baseConfigurationReferenceRelativePath = Configuration/dev.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -336,8 +398,6 @@
 		};
 		BEFB83BC2D3D35A1000D9537 /* Release(dev) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */;
-			baseConfigurationReferenceRelativePath = Configuration/dev.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -402,7 +462,9 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"hongmumuk_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HDHR2SNR7;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +496,9 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"hongmumuk_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HDHR2SNR7;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -530,8 +594,6 @@
 		};
 		BEFB83DC2D3D37A1000D9537 /* Debug(prod) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */;
-			baseConfigurationReferenceRelativePath = Configuration/prod.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -603,7 +665,9 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"hongmumuk_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HDHR2SNR7;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -663,8 +727,6 @@
 		};
 		BEFB83E02D3D37A2000D9537 /* Debug(stag) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */;
-			baseConfigurationReferenceRelativePath = Configuration/stag.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -736,7 +798,9 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"hongmumuk_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HDHR2SNR7;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -796,8 +860,6 @@
 		};
 		BEFB83E42D3D37A5000D9537 /* Release(prod) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */;
-			baseConfigurationReferenceRelativePath = Configuration/prod.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -864,7 +926,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hongmumuk_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7HDHR2SNR7;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -925,8 +989,6 @@
 		};
 		BEFB83E82D3D37A7000D9537 /* Release(stag) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = BEFB839B2D3D359F000D9537 /* hongmumuk_SwiftUI */;
-			baseConfigurationReferenceRelativePath = Configuration/stag.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -993,7 +1055,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hongmumuk_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7HDHR2SNR7;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
