@@ -162,8 +162,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEFB83BD2D3D35A1000D9537 /* Build configuration list for PBXNativeTarget "hongmumuk_SwiftUI" */;
 			buildPhases = (
-				2FA097952D4280EA00D01792 /* SwiftLint */,
 				BEFB83952D3D359F000D9537 /* Sources */,
+				2FA097952D4280EA00D01792 /* SwiftLint */,
 				BEFB83962D3D359F000D9537 /* Frameworks */,
 				BEFB83972D3D359F000D9537 /* Resources */,
 			);
@@ -367,6 +367,7 @@
 /* Begin XCBuildConfiguration section */
 		BEFB83BB2D3D35A1000D9537 /* Debug(dev) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA097C62D42A11000D01792 /* dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -430,6 +431,7 @@
 		};
 		BEFB83BC2D3D35A1000D9537 /* Release(dev) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA097C62D42A11000D01792 /* dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -493,7 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"hongmumuk_SwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 7HDHR2SNR7;
+				DEVELOPMENT_TEAM = M2666QDLXK;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -626,6 +628,7 @@
 		};
 		BEFB83DC2D3D37A1000D9537 /* Debug(prod) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA097C72D42A11000D01792 /* prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -759,6 +762,7 @@
 		};
 		BEFB83E02D3D37A2000D9537 /* Debug(stag) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA097C82D42A11000D01792 /* stag.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -892,6 +896,7 @@
 		};
 		BEFB83E42D3D37A5000D9537 /* Release(prod) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA097C72D42A11000D01792 /* prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -1021,6 +1026,7 @@
 		};
 		BEFB83E82D3D37A7000D9537 /* Release(stag) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA097C82D42A11000D01792 /* stag.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
