@@ -163,6 +163,7 @@
 			buildConfigurationList = BEFB83BD2D3D35A1000D9537 /* Build configuration list for PBXNativeTarget "hongmumuk_SwiftUI" */;
 			buildPhases = (
 				BEFB83952D3D359F000D9537 /* Sources */,
+				BE50C7862D509A1000873961 /* swiftFormat */,
 				2FA097952D4280EA00D01792 /* SwiftLint */,
 				BEFB83962D3D359F000D9537 /* Frameworks */,
 				BEFB83972D3D359F000D9537 /* Resources */,
@@ -319,6 +320,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"/opt/homebrew/bin:$PATH\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		BE50C7862D509A1000873961 /* swiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat > /dev/null; then\n swiftformat .\nelse\necho \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

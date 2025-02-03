@@ -1,0 +1,7 @@
+--swiftversion 5.9 # Swift 5.9 버전을 기준으로 코드 스타일을 적용
+--indent 4 # 코드 들여쓰기(indent)를 4 스페이스로 설정
+--commas inline # 콤마(,)를 인라인 스타일로 유지 (배열, 딕셔너리 등에서 줄바꿈 없이 같은 줄에 배치)
+--trimwhitespace nonblank-lines # 빈 줄을 제외한 모든 라인의 끝부분 공백 제거
+--disable redundantReturn # 불필요한 return 문 제거 비활성화 
+--disable unusedArguments # 불필요한 아규먼트 제거 비활성화
+--disable redundantClosure # 불필요한 클로저 인자 제거 비활성화
