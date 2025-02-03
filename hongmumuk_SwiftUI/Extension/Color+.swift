@@ -9,7 +9,6 @@ import SwiftUI
 
 extension Color {
     init(hex: String) {
-        let hex = hex.trimmingCharacters(in: .whitespacesAndNewlines)
         let scanner = Scanner(string: hex)
         
         if hex.hasPrefix("#") {
@@ -26,4 +25,3 @@ extension Color {
         self.init(red: r, green: g, blue: b)
     }
 }
-

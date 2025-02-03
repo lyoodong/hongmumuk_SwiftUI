@@ -9,8 +9,17 @@ import SwiftUI
 
 extension View {
     func applyShadows(_ style: ShadowStyle) -> some View {
-        style.shadows.reduce(self) { view, shadow in
-            view.shadow(color: shadow.color, radius: shadow.radius, x: shadow.x, y: shadow.y)
+        var modifiedView = AnyView(self)
+        for shadow in style.shadows {
+            modifiedView = AnyView(
+                modifiedView.shadow(
+                    color: shadow.color,
+                    radius: shadow.radius,
+                    x: shadow.x,
+                    y: shadow.y
+                )
+            )
         }
+        return modifiedView
     }
 }
