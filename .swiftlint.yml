@@ -1,5 +1,6 @@
 # 기본 룰에서 사용하지 않는 룰 비활성화
 disabled_rules:
+  - trailing_whitespace                    # 공백 경고
   - nesting                                # 중첩
   - vertical_whitespace                    # 세로 공백
   - redundant_optional_initialization      # 옵셔널 타입을 nil로 초기화 중복
