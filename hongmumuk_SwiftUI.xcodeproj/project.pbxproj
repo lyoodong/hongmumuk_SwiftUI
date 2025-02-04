@@ -42,6 +42,7 @@
 		2FA097D02D42A11000D01792 /* dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C62D42A11000D01792 /* dev.xcconfig */; };
 		2FA097D12D42A11000D01792 /* prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C72D42A11000D01792 /* prod.xcconfig */; };
 		BE5F1AA62D51ED6800D124DB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = BE5F1AA52D51ED6800D124DB /* ComposableArchitecture */; };
+		BE5F1A952D51EB2500D124DB /* Cateogory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1A932D51EB2500D124DB /* Cateogory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		2FA097C62D42A11000D01792 /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
 		2FA097C72D42A11000D01792 /* prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = prod.xcconfig; sourceTree = "<group>"; };
 		2FA097C82D42A11000D01792 /* stag.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = stag.xcconfig; sourceTree = "<group>"; };
+		BE5F1A932D51EB2500D124DB /* Cateogory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cateogory.swift; sourceTree = "<group>"; };
 		BEFB83992D3D359F000D9537 /* hongmumuk_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hongmumuk_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83A92D3D35A1000D9537 /* hongmumuk_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83B32D3D35A1000D9537 /* hongmumuk_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 		2FA0978B2D427FC900D01792 /* hongmumuk_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BE5F1A942D51EB2500D124DB /* Enums */,
 				2F435EAC2D4FC265005E1C84 /* Font */,
 				2F435EA72D4FC163005E1C84 /* Extension */,
 				2F435E9C2D4FBA3B005E1C84 /* DesignSystem */,
@@ -203,6 +206,14 @@
 				2FA097C82D42A11000D01792 /* stag.xcconfig */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		BE5F1A942D51EB2500D124DB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F1A932D51EB2500D124DB /* Cateogory.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		BEFB83902D3D359F000D9537 = {
@@ -432,6 +443,7 @@
 			files = (
 				2F435EAB2D4FC1C4005E1C84 /* Fonts.swift in Sources */,
 				2F435EA62D4FBF91005E1C84 /* Effects.swift in Sources */,
+				BE5F1A952D51EB2500D124DB /* Cateogory.swift in Sources */,
 				2FA0978C2D427FC900D01792 /* ContentView.swift in Sources */,
 				2F435EA92D4FC19C005E1C84 /* Text+.swift in Sources */,
 				2F435EA22D4FBF35005E1C84 /* Colors.swift in Sources */,
