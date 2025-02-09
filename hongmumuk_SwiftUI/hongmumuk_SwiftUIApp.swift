@@ -12,7 +12,8 @@ import SwiftUI
 struct Hongmumuk_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView(store: Store(initialState: HomeFeature.State(), reducer: HomeFeature.init))
+//            HomeView(store: Store(initialState: HomeFeature.State(), reducer: HomeFeature.init))
+            ContentView()
         }
     }
 }
