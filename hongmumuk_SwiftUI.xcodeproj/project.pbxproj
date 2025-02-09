@@ -43,6 +43,7 @@
 		2FA097D12D42A11000D01792 /* prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA097C72D42A11000D01792 /* prod.xcconfig */; };
 		BE4F9B1E2D58FC9600E7CC46 /* Univ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B1D2D58FC9600E7CC46 /* Univ.swift */; };
 		BE4F9B202D58FCB400E7CC46 /* Univ+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B1F2D58FCB400E7CC46 /* Univ+.swift */; };
+		BE4F9B242D58FD9400E7CC46 /* ValidationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B232D58FD9400E7CC46 /* ValidationClient.swift */; };
 		BE5F1A952D51EB2500D124DB /* Cateogory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1A932D51EB2500D124DB /* Cateogory.swift */; };
 		BE5F1AA12D51EBA000D124DB /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA02D51EBA000D124DB /* HomeFeature.swift */; };
 		BE5F1AA32D51EC5D00D124DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA22D51EC5D00D124DB /* HomeView.swift */; };
@@ -95,6 +96,7 @@
 		2FA097C82D42A11000D01792 /* stag.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = stag.xcconfig; sourceTree = "<group>"; };
 		BE4F9B1D2D58FC9600E7CC46 /* Univ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Univ.swift; sourceTree = "<group>"; };
 		BE4F9B1F2D58FCB400E7CC46 /* Univ+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Univ+.swift"; sourceTree = "<group>"; };
+		BE4F9B232D58FD9400E7CC46 /* ValidationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationClient.swift; sourceTree = "<group>"; };
 		BE5F1A932D51EB2500D124DB /* Cateogory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cateogory.swift; sourceTree = "<group>"; };
 		BE5F1AA02D51EBA000D124DB /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
 		BE5F1AA22D51EC5D00D124DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		2FA0978B2D427FC900D01792 /* hongmumuk_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BE4F9B222D58FD8800E7CC46 /* Dependency */,
 				BE5F1A9E2D51EB9300D124DB /* Feature */,
 				BE5F1A942D51EB2500D124DB /* Enums */,
 				2F435EAC2D4FC265005E1C84 /* Font */,
@@ -216,6 +219,14 @@
 				2FA097C82D42A11000D01792 /* stag.xcconfig */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		BE4F9B222D58FD8800E7CC46 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F9B232D58FD9400E7CC46 /* ValidationClient.swift */,
+			);
+			path = Dependency;
 			sourceTree = "<group>";
 		};
 		BE5F1A942D51EB2500D124DB /* Enums */ = {
@@ -480,6 +491,7 @@
 				BE4F9B202D58FCB400E7CC46 /* Univ+.swift in Sources */,
 				2F435EA22D4FBF35005E1C84 /* Colors.swift in Sources */,
 				2FA0978D2D427FC900D01792 /* hongmumuk_SwiftUIApp.swift in Sources */,
+				BE4F9B242D58FD9400E7CC46 /* ValidationClient.swift in Sources */,
 				2F435EA42D4FBF5A005E1C84 /* View+.swift in Sources */,
 				2F435E9E2D4FBC05005E1C84 /* Color+.swift in Sources */,
 			);
