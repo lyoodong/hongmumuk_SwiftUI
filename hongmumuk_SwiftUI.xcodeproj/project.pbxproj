@@ -44,6 +44,7 @@
 		BE4F9B1E2D58FC9600E7CC46 /* Univ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B1D2D58FC9600E7CC46 /* Univ.swift */; };
 		BE4F9B202D58FCB400E7CC46 /* Univ+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B1F2D58FCB400E7CC46 /* Univ+.swift */; };
 		BE4F9B242D58FD9400E7CC46 /* ValidationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B232D58FD9400E7CC46 /* ValidationClient.swift */; };
+		BE4F9B2B2D59E8D600E7CC46 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE4F9B2A2D59E8D600E7CC46 /* Alamofire */; };
 		BE5F1A952D51EB2500D124DB /* Cateogory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1A932D51EB2500D124DB /* Cateogory.swift */; };
 		BE5F1AA12D51EBA000D124DB /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA02D51EBA000D124DB /* HomeFeature.swift */; };
 		BE5F1AA32D51EC5D00D124DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA22D51EC5D00D124DB /* HomeView.swift */; };
@@ -111,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE5F1AA62D51ED6800D124DB /* ComposableArchitecture in Frameworks */,
+				BE4F9B2B2D59E8D600E7CC46 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +298,7 @@
 			name = hongmumuk_SwiftUI;
 			packageProductDependencies = (
 				BE5F1AA52D51ED6800D124DB /* ComposableArchitecture */,
+				BE4F9B2A2D59E8D600E7CC46 /* Alamofire */,
 			);
 			productName = hongmumuk_SwiftUI;
 			productReference = BEFB83992D3D359F000D9537 /* hongmumuk_SwiftUI.app */;
@@ -375,6 +378,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				BE5F1AA42D51ED6800D124DB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				BE4F9B292D59E8D600E7CC46 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BEFB839A2D3D359F000D9537 /* Products */;
@@ -1377,6 +1381,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BE4F9B292D59E8D600E7CC46 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
 		BE5F1AA42D51ED6800D124DB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
@@ -1388,6 +1400,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BE4F9B2A2D59E8D600E7CC46 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE4F9B292D59E8D600E7CC46 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		BE5F1AA52D51ED6800D124DB /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BE5F1AA42D51ED6800D124DB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
