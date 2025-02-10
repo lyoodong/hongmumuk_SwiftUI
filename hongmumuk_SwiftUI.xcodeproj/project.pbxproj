@@ -45,6 +45,7 @@
 		BE4F9B202D58FCB400E7CC46 /* Univ+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B1F2D58FCB400E7CC46 /* Univ+.swift */; };
 		BE4F9B242D58FD9400E7CC46 /* ValidationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B232D58FD9400E7CC46 /* ValidationClient.swift */; };
 		BE4F9B2B2D59E8D600E7CC46 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE4F9B2A2D59E8D600E7CC46 /* Alamofire */; };
+		BE4F9B2F2D59EEBB00E7CC46 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F9B2E2D59EEBB00E7CC46 /* Environment.swift */; };
 		BE5F1A952D51EB2500D124DB /* Cateogory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1A932D51EB2500D124DB /* Cateogory.swift */; };
 		BE5F1AA12D51EBA000D124DB /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA02D51EBA000D124DB /* HomeFeature.swift */; };
 		BE5F1AA32D51EC5D00D124DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA22D51EC5D00D124DB /* HomeView.swift */; };
@@ -98,6 +99,8 @@
 		BE4F9B1D2D58FC9600E7CC46 /* Univ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Univ.swift; sourceTree = "<group>"; };
 		BE4F9B1F2D58FCB400E7CC46 /* Univ+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Univ+.swift"; sourceTree = "<group>"; };
 		BE4F9B232D58FD9400E7CC46 /* ValidationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationClient.swift; sourceTree = "<group>"; };
+		BE4F9B2D2D59EE2C00E7CC46 /* hongmumuk-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hongmumuk-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BE4F9B2E2D59EEBB00E7CC46 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		BE5F1A932D51EB2500D124DB /* Cateogory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cateogory.swift; sourceTree = "<group>"; };
 		BE5F1AA02D51EBA000D124DB /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
 		BE5F1AA22D51EC5D00D124DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -216,6 +219,7 @@
 		2FA097C52D42A0EC00D01792 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				BE4F9B2D2D59EE2C00E7CC46 /* hongmumuk-SwiftUI-Info.plist */,
 				2FA097C62D42A11000D01792 /* dev.xcconfig */,
 				2FA097C72D42A11000D01792 /* prod.xcconfig */,
 				2FA097C82D42A11000D01792 /* stag.xcconfig */,
@@ -236,6 +240,7 @@
 			children = (
 				BE5F1A932D51EB2500D124DB /* Cateogory.swift */,
 				BE4F9B1D2D58FC9600E7CC46 /* Univ.swift */,
+				BE4F9B2E2D59EEBB00E7CC46 /* Environment.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -488,6 +493,7 @@
 				BE5F1AA12D51EBA000D124DB /* HomeFeature.swift in Sources */,
 				2F435EA62D4FBF91005E1C84 /* Effects.swift in Sources */,
 				BE4F9B1E2D58FC9600E7CC46 /* Univ.swift in Sources */,
+				BE4F9B2F2D59EEBB00E7CC46 /* Environment.swift in Sources */,
 				BE5F1A952D51EB2500D124DB /* Cateogory.swift in Sources */,
 				2FA0978C2D427FC900D01792 /* ContentView.swift in Sources */,
 				BE5F1AA32D51EC5D00D124DB /* HomeView.swift in Sources */,
@@ -669,7 +675,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_FILE = "hongmumuk-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "홍무묵_dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -703,7 +710,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_FILE = "hongmumuk-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "홍무묵_dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -873,7 +881,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_FILE = "hongmumuk-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "홍무묵_dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1007,7 +1016,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_FILE = "hongmumuk-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "홍무묵_dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1136,7 +1146,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_FILE = "hongmumuk-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "홍무묵_dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1266,7 +1277,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_FILE = "hongmumuk-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "홍무묵_dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
