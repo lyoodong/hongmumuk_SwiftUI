@@ -30,7 +30,7 @@ struct LoginView: View {
                 
                 LoginButton(
                     title: "이메일로 로그인",
-                    iconName: "envelope",
+                    iconName: "LoginMailIcon",
                     action: {
                         viewStore.send(.signInButtonTapped)
                     }
@@ -89,11 +89,10 @@ struct LoginButton: View {
                     .foregroundColor(Colors.GrayScale.normal)
                 
                 HStack {
-                    Image(systemName: iconName)
+                    Image(iconName)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 24, height: 24)
-                        .foregroundColor(Colors.Primary.strong)
                         .padding(.leading, 20)
                     
                     Spacer()
