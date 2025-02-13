@@ -15,11 +15,11 @@ struct LoginFeature: Reducer {
         case signUp
     }
     
-    struct State {
+    struct State: Equatable {
         var activeScreen: ActiveScreen = .none
     }
     
-    enum Action {
+    enum Action: Equatable {
         case signInButtonTapped
         case signUpButtonTapped
         case onDismiss
