@@ -18,41 +18,28 @@ struct HomeView: View {
     }
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 HomeHeaderView(viewStore: viewStore)
                 HomeCircleView(viewStore: viewStore)
                 HomeRandomButton(viewStore: viewStore)
             }
             .onAppear { viewStore.send(.onAppear) }
-        }
-        .navigationDestination(
-            isPresented: viewStore.binding(
-                get: { $0.activeScreen != .none },
-                send: .onDismiss
-            )
-        ) {
-            let screen = viewStore.activeScreen
-            if case .random = screen {
-                // random View
-            } else if case .search = screen {
-                // search View
-            } else if case let .cateogryList(category) = screen {
-                // category List View
+            .navigationDestination(
+                isPresented: viewStore.binding(
+                    get: { $0.activeScreen != .none },
+                    send: .onDismiss
+                )
+            ) {
+                let screen = viewStore.activeScreen
+                if case .random = screen {
+                    // random View
+                } else if case .search = screen {
+                    // search View
+                } else if case let .cateogryList(category) = screen {
+                    // category List View
+                }
             }
         }
-    }
-}
-
-// MARK: - NextView
-
-struct NextView: View {
-    var onDisappearAction: () -> Void
-    
-    var body: some View {
-        Text("다음 화면")
-            .onDisappear {
-                onDisappearAction()
-            }
     }
 }

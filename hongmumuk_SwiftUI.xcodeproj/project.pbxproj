@@ -58,6 +58,7 @@
 		BE5F1AA12D51EBA000D124DB /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA02D51EBA000D124DB /* HomeFeature.swift */; };
 		BE5F1AA32D51EC5D00D124DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F1AA22D51EC5D00D124DB /* HomeView.swift */; };
 		BE5F1AA62D51ED6800D124DB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = BE5F1AA52D51ED6800D124DB /* ComposableArchitecture */; };
+		BE79E7752D61BCC9002D57D8 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79E7742D61BCC9002D57D8 /* Double+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		BE5F1A932D51EB2500D124DB /* Cateogory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cateogory.swift; sourceTree = "<group>"; };
 		BE5F1AA02D51EBA000D124DB /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
 		BE5F1AA22D51EC5D00D124DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BE79E7742D61BCC9002D57D8 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		BEFB83992D3D359F000D9537 /* hongmumuk_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hongmumuk_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83A92D3D35A1000D9537 /* hongmumuk_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB83B32D3D35A1000D9537 /* hongmumuk_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hongmumuk_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +171,7 @@
 				2F435EA32D4FBF5A005E1C84 /* View+.swift */,
 				2F435EA82D4FC19C005E1C84 /* Text+.swift */,
 				BE4F9B1F2D58FCB400E7CC46 /* Univ+.swift */,
+				BE79E7742D61BCC9002D57D8 /* Double+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -567,6 +570,7 @@
 				BE4F9B242D58FD9400E7CC46 /* ValidationClient.swift in Sources */,
 				BE4F9B4F2D5A095D00E7CC46 /* LoginFeature.swift in Sources */,
 				2F435EA42D4FBF5A005E1C84 /* View+.swift in Sources */,
+				BE79E7752D61BCC9002D57D8 /* Double+.swift in Sources */,
 				2F435E9E2D4FBC05005E1C84 /* Color+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
