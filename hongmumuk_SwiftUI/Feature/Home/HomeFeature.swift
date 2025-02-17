@@ -68,7 +68,7 @@ struct HomeFeature: Reducer {
             state.activeScreen = .none
             state.rotation = -state.sliceAngle * 3
             state.outerRadius = UIScreen.main.bounds.width / 2 - 24
-            state.innerRadius = 76
+            state.innerRadius = 65
 
             return .none
         case .onDismiss:
