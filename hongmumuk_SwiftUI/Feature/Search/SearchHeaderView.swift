@@ -10,6 +10,7 @@ import SwiftUI
 
 struct SearchHeaderView: View {
     @ObservedObject var viewStore: ViewStoreOf<SearchFeature>
+    @SwiftUI.Environment(\.dismiss) var dismiss
     
     var body: some View {
         VStack {
@@ -35,7 +36,7 @@ struct SearchHeaderView: View {
     
     private var backButton: some View {
         Button(action: {
-            viewStore.send(.backButtonTapped)
+            dismiss()
         }) {
             Image("backIcon")
                 .frame(width: 36, height: 36)
